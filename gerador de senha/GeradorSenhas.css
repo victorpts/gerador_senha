@@ -1,0 +1,93 @@
+body {
+	background-color: lightslategray;
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	width: 30%;
+	height: 600px;
+	background-color:	#8B0000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	border: double 15px white;
+	border-radius: 20px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Trebuchet MS';
+	font-size: 40px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	font-size: 20px;
+}
+
+#quantidade_caracteres {
+	width: 30%;
+	text-align: center;
+	background-color: transparent;
+	border: double 5px white;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+#quantidade_caracteres::placeholder {
+	color: white;
+}
+
+
+#senha_gerada {
+	width: 80%;
+	height: 100px;
+	background-color: transparent;
+	border: double 5px white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#senha_gerada::placeholder, #senha_gerada {
+	font-family: impact;
+	font-size: 50px;
+	color: white;
+}
+
+img {
+	width: 50px;
+	height: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+}
+
+p {
+	color: white;
+	font-family: 'Trebuchet';
+	font-size: 30px;
+	text-align: center;
+}
+
+#btn_gerador {
+	width: 80%;
+	height: 50px;
+	background-color: #8B0000;
+	border: double 5px white;
+	border-radius: 10px;
+	font-family: impact;
+	font-size: 30px;
+	color: white;
+}
+
+#btn_gerador:hover {
+	background-color: white;
+	color: #8B0000;
+}
